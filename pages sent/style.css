@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #3ef83e;
+}
+
+.header{
+    background-color: white;
+}
+
+.nav_logo{
+    width: 3.5rem;
+}
+
+.nav_name{
+    font-size: 1.8rem;
+    color: #76BA1B;
+    font-weight: 700;
+}
+
+.nav-item{
+    margin: 0px 20px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #183153;
+    border-color: white;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+#navbarSupportedContent ul li a{
+    color: #183153;
+    font-weight: 700;
+    position: relative;
+    font-size: 18px;
+    padding: 3px 15px;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 4px;
+    background-color:#7cf87c;
+    transition: all 0.5s linear;
+}
+
+.nav-link:hover::before{
+    width: 100%;
+    background-color: #3ef83e;
+}
+
+.header .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-brand {
+    margin-right: 10px;
+}
+
+.button_effect{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.signup{
+    background-color: #198754;
+    color: white;
+}
+
+.signup:hover{
+    color: #198754;
+    background-color: white;
+}
+
+.cart{
+    font-size: 30px;
+    margin: 0 15px;
+    color: #183153;
+}
+/* #25c16f */
+/* #ff6b6b */
